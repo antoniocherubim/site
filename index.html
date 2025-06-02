@@ -3,12 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Página oficial da Artang - Soluções Inteligentes. Em breve, novidades!" />
   <title>Artang</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Orbitron&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Orbitron&display=swap" rel="stylesheet" />
   <style>
     * {
       margin: 0;
@@ -16,37 +12,34 @@
       box-sizing: border-box;
     }
 
-    html, body {
-      height: 100%;
-      width: 100%;
+    body {
+      background: black;
+      background-image: url('Anjo Caído no Espaço Cósmico_cleanup (1).png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: top center;
       font-family: 'Orbitron', sans-serif;
       color: white;
-      overflow: hidden;
-    }
-
-    body {
-      position: relative;
+      min-height: 100vh;
+      overflow-y: scroll;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-    }
-
-    .background-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -1;
+      padding: 1rem;
     }
 
     .container {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 2rem;
-      border-radius: 1rem;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
       max-width: 90%;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 1rem;
+      padding: 2rem;
     }
 
     h1 {
@@ -80,9 +73,6 @@
   </style>
 </head>
 <body>
-  <!-- Imagem de fundo -->
-  <img src="Anjo Caído no Espaço Cósmico_cleanup (1).png" alt="Fundo cósmico" class="background-image" />
-
   <div class="container">
     <h1>artang</h1>
     <h2>Soluções inteligentes.</h2>
